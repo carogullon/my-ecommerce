@@ -13,10 +13,10 @@ const NavBar = () => {
                     <a href="rinioneras.html">Riñoneras</a>
                 </li>
                 <li className="item">
-                    <a href="sobres.html">Sobres</a>
+                    <a href="carteras.html">Cartersa</a>
                 </li>
                 <li className="item">
-                    <a href="billeteras.html">Billeteras</a>
+                    <a href="accesorios.html">Accesorios</a>
                 </li>
             </ul>
             <CartWidget></CartWidget>
