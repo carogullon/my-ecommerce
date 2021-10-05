@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Item from '../Item/Item';
+import ItemData from '../../../assets/data.json';
+
+import './ItemList.css';
 
 const ItemList = () => {
     const [items, setItems] = useState ([]);
@@ -7,21 +10,27 @@ const ItemList = () => {
     
 
     useEffect( ()=>{
-        setTimeout(()=>{
-            fetch("src/components/assets/data.json")
-                .then((response) => response.json())
-                .then((data) => setItems(data))
-        },2000);
-    }, []);
+            const promList = new Promise ((resolve) =>{
+                setTimeout (()=>{
+                    resolve(ItemData);
+                },2000);
+            });
 
+            promList.then((response) => {
+                setItems(response);
+            });
+        }, []);
+        
     return (
         <div>
-            <h2>Productos</h2>
+            <h2 className="productos">Productos</h2>
             {items.map((item)=> {
-                <Item data = {item} />
+                return (
+                <Item item={item} key={item.id} />
+                )
             })}
         </div>
     )
-}
+};
 
 export default ItemList;

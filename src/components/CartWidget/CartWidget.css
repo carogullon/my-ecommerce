@@ -1,5 +1,6 @@
 .cartWidget {
-    display: inline-block;
+    display: flex;
+    flex-direction:row;
     margin-top: 30px;
     color:grey;
 }

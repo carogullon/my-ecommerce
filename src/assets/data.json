@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name":"mochila cuero negra con tachas",
+        "img":"./img/mochila-everlast.png",
+        "precio": 3000,
+        "description": "mochila simil cuero negra con tachas"
+    },
+    {
+        "id": 1,
+        "name":"mochila norteña",
+        "img":"./img/mochila-norteña.png",
+        "precio": 4000,
+        "description": "mochila simil cuero negra con tachas"
+    },
+    {
+        "id": 2,
+        "name":"mochila con tachas y flecos",
+        "img":"./img/mochila-negra-flecos-uno.png",
+        "precio":4500,
+        "description": "mochila simil cuero negra con tachas"
+    },
+    {
+        "id": 3,
+        "name":"mochila marron con letras",
+        "img":"./img/mochila-marron-uno.png",
+        "precio":4000,
+        "description": "mochila simil cuero negra con tachas"
+    }
+]

@@ -21,7 +21,7 @@ const ItemCount = ({stock, initial}) => {
             if (counter > 1){
                 setCounter (counter -1)
         };
-    };
+    }
     return (
         <div className="contador">
             <h2>Contador</h2>
