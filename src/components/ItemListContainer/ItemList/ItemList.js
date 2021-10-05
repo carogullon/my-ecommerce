@@ -22,8 +22,7 @@ const ItemList = () => {
         }, []);
         
     return (
-        <div>
-            <h2 className="productos">Productos</h2>
+        <div className="itemsList">
             {items.map((item)=> {
                 return (
                 <Item item={item} key={item.id} />

@@ -1,4 +1,5 @@
-.productos {
-    color:  rgb(224, 204, 176);
-    align-items:center;
+
+.itemsList {
+    display:flex;
+    flex-direction:row;
 }

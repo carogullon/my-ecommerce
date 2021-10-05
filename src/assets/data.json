@@ -2,28 +2,28 @@
     {
         "id": 0,
         "name":"mochila cuero negra con tachas",
-        "img":"./img/mochila-everlast.png",
+        "img":"https://carestino-ar-wrzqwdwu5ozbnlo9.stackpathdns.com/uploads/productos_imagen_3139-1_ar-1601602710.jpg",
         "precio": 3000,
         "description": "mochila simil cuero negra con tachas"
     },
     {
         "id": 1,
         "name":"mochila norteña",
-        "img":"./img/mochila-norteña.png",
+        "img":"https://carestino-ar-wrzqwdwu5ozbnlo9.stackpathdns.com/uploads/productos_imagen_3139-1_ar-1601602710.jpg",
         "precio": 4000,
         "description": "mochila simil cuero negra con tachas"
     },
     {
         "id": 2,
         "name":"mochila con tachas y flecos",
-        "img":"./img/mochila-negra-flecos-uno.png",
+        "img":"https://carestino-ar-wrzqwdwu5ozbnlo9.stackpathdns.com/uploads/productos_imagen_3139-1_ar-1601602710.jpg",
         "precio":4500,
         "description": "mochila simil cuero negra con tachas"
     },
     {
         "id": 3,
         "name":"mochila marron con letras",
-        "img":"./img/mochila-marron-uno.png",
+        "img":"https://carestino-ar-wrzqwdwu5ozbnlo9.stackpathdns.com/uploads/productos_imagen_3139-1_ar-1601602710.jpg",
         "precio":4000,
         "description": "mochila simil cuero negra con tachas"
     }
