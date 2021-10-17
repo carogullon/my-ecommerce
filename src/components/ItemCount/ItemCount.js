@@ -3,15 +3,7 @@ import './ItemCount.css';
 
 const ItemCount = ({stock, initial}) => {
         const [counter, setCounter]= useState(parseInt(initial));
-
-        const onAdd = () => {
-            if (counter>0, counter<5) {
-                alert("La cantidad de sus productos es :" + counter)
-            }else {
-                alert("No hay mas stock disponible");
-            };
-        };
-       
+        
         const incrementar = () => {
             if (counter < stock){
                 setCounter  (counter +1)
@@ -20,24 +12,27 @@ const ItemCount = ({stock, initial}) => {
         const decrementar = () => {
             if (counter > 1){
                 setCounter (counter -1)
+            }
         };
-    }
+
+        const onAdd = () => {
+            if (counter>0 && counter<5) {
+                alert("La cantidad de sus productos es :" + counter)
+            }else {
+                alert("No hay mas stock disponible");
+            }
+        }
     return (
         <div className="contador">
-            <h2>Contador</h2>
-        
-            <div className="botonContador">
-                <button onClick={decrementar}>-</button>
+            <div className="contador">
+                <button onClick={incrementar}className="botonContador">+</button>
                 <h3 className="numeroContador">{counter}</h3>
-                <button onClick={incrementar}>+</button>
+                <button onClick={decrementar}className="botonContador">-</button>
+            </div>
+            <div>
                 <button onClick={onAdd}>Agregar al carrito</button>
-              
-               
-                
             </div>
         </div>
-            
-       
     )
 }
 

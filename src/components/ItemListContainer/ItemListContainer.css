@@ -1,8 +1,7 @@
-.ItemListContainer {
+.ItemList {
     margin-top: 4%;
     margin-bottom:4%;
-    color: rgb(224, 204, 176);
     display: flex;
     flex-direction: row;
-    
+    color: black;
 }

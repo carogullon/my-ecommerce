@@ -1,31 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import Item from '../Item/Item';
 import ItemData from '../../../assets/data.json';
+import {Link} from 'react-router-dom';
 
 import './ItemList.css';
 
+
+
 const ItemList = () => {
     const [items, setItems] = useState ([]);
-    console.log(items);
     
 
     useEffect( ()=>{
-            const promList = new Promise ((resolve) =>{
-                setTimeout (()=>{
-                    resolve(ItemData);
-                },2000);
-            });
-
-            promList.then((response) => {
-                setItems(response);
-            });
+            const promList = new Promise (resolve => resolve(ItemData));
+            promList.then((response) => setItems(response));
         }, []);
         
     return (
         <div className="itemsList">
             {items.map((item)=> {
                 return (
-                <Item item={item} key={item.id} />
+                    <div key = {item.id}>
+                        <Link to={`/detail/${item.id}`}>
+                            <Item item={item} />
+                        </Link>
+                    </div>
                 )
             })}
         </div>

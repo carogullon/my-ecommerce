@@ -1,12 +1,16 @@
 .NavBar {
     display: flex;
     background-color:rgb(241, 228, 210);
+    min-height: 5vh;
     
 }
 .productos {
     display:flex;
     flex-direction: column;
     list-style:none;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
 }
 @media (min-width:768px) {
     .productos {
@@ -16,10 +20,7 @@
 }
 
 .item {
-    justify-content: space-between;
     padding:20px;
-}
-.item a {
     text-decoration:none;
     color:grey;
     font-size:20px;
