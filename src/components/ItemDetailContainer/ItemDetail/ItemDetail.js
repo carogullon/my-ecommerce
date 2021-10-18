@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card,  Image } from 'semantic-ui-react';
 import './ItemDetail.css';
+import ItemCount from '../../ItemCount/ItemCount';
 
 
 const ItemDetail = ({producto}) => {
@@ -15,7 +16,9 @@ const ItemDetail = ({producto}) => {
                         <Card.Description>{description}</Card.Description>
                         <Card.Content>${precio}</Card.Content>
                     </Card.Content>
+                    <ItemCount />
                 </Card>
+              
         </div> 
   
     )
