@@ -2,9 +2,10 @@ import React from 'react';
 import { useState } from 'react'; 
 import './ItemCount.css';
 
-const ItemCount = ({stock, initial}) => {
+const ItemCount = (props) => {
         
-    const [counter, setCounter]= useState(parseInt(initial));
+    const [counter, setCounter]= useState(parseInt(props.initial));
+    const [stock, setStock]=useState(parseInt(props.stock));
         
         const incrementar = () => {
             if (counter < stock){
@@ -17,13 +18,6 @@ const ItemCount = ({stock, initial}) => {
             }
         };
 
-        const onAdd = () => {
-            if (counter>0 && counter<5) {
-                alert("La cantidad de sus productos es :" + counter)
-            }else {
-                alert("No hay mas stock disponible");
-            }
-        }
     return (
         <div>
             <div className="contador">
@@ -32,7 +26,7 @@ const ItemCount = ({stock, initial}) => {
                 <button onClick={incrementar} className="botonContador">+</button>
             </div>
             <div>
-                <button onClick={onAdd}>Agregar al carrito</button>
+                <button onClick={()=> props.onClick(counter)}>Agregar {" "} </button>
             </div>
         </div>
     

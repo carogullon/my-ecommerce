@@ -1,7 +1,7 @@
 import React from 'react';
 import ItemsData from '../../assets/data.json';
 import ItemDetail from './ItemDetail/ItemDetail';
-import { Card, Image } from 'semantic-ui-react';
+
 import { useState, useEffect } from 'react';
 
 const ItemDetailContainer = ({match}) => {
