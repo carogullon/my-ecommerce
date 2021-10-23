@@ -4,27 +4,32 @@
         "name":"mochila cuero negra con tachas",
         "img":"https://lh3.googleusercontent.com/A8oBKEF7nUO335AjVSOl3W7-M5TCsl7BiBuDh-2KdLff-1exkb6WmPf-3wV2_70XwWYR6GCjS9Q3RhQlqTBUZUwx5M2Lp_Z8p8x7N7j0GWGWuPADcJH3dXCt6MKYmgCfkmabt_5yLhW0I1Q55bl_CvMrxBmsW2Jc7YEklK10qrCR0hsGvDbl2OmNRX7UDlj455dBm8EVEjXOjwtsVoret2CeZh9wwxSOmJKk-gRgkpL1RbaTOHIuMPxOIB-_HOtQ4DiW8pP1iWvAZzbIfuNiNJbsLyiUSVPRuCSltjoIaDzXMto1jPjSre771xDLY9GEfUz3ucYLGppRmHLoPvxTi9Tc7r6W70TBF_A2BLYwq54RGbbDrBEVymCKc05FkQNQHEeJVbfR26NRn0kASI4CwqwyjtQG8NsnjupmfqOa_j5RYzfsHrUqGvWrpti_3rv43M9UoL2nPzbA9FHOktYGVd_mvbb1DcGuhNzTJUiyW7Woj2vNS1CfY38wOaxKaLpjO3HeWR_8adTyZPhBq4xIgkSDtDR7Gjt-tx3W651JubDYcWTaXMzLndU5YZN99WSBi6vgMgamKGpZOjCOsjM7zj-_lfFCtsli3oi2rdgKRAJ2T0sonAnsNuVFIicice_AJedWPGp8Yg11WBX70zLGosTdqftMpImNwagGI1lwKlLYWP5V8ppWU1uh3qJrvad22eWZEzSBCYYaC2zplRoeDT3Z=w480-h582-no?authuser=0",
         "precio": 3000,
-        "description": "mochila simil cuero negra con tachas"
+        "description": "mochila simil cuero negra con tachas",
+        "category":"mochilas"
     },
     {
         "id": 1,
-        "name":"mochila norteña",
-        "img":"https://lh3.googleusercontent.com/ZMo-DZwJTtibDGnVbmj9rLkw3gjxbXKv6u2qPDzZpPdSkxSMQ1z2R5Gj_ZyviqfdWNanko6se-OgZKUEnhaL35Ex9n7JkNA9Uo3-7_8sSz_uD0YYMAZPvjk5q12jFK4s_qnzFBvGrwegRhugNjVTPcE7jYW0KlOP12kDb_gTKah-DTs90r3WQerJ2P7Yxw7zRRA71sacknZM0ZowpQ42G1r8A30mNPqGiUsb2V0DLfSBF1dOmDTXaUOxh2zhyOvODpFPE4vRrQdZgWewdG1PfHVPudk0vKCtJFNRwNm2_wRRmtoLj_q32y6CqGjBA-JTR7u3f8gXITduoDgUvxkQiOQ4A7FA-sUmnPVpVcX9tBT8PXTEj3sj-FDVPHkSv8v8LfO_gZKiKuitSAPRkv38LdLdEJS5UDNVUf-G5UFGAKde89pwxoftuTltVFiIeTdhpC6AH_cQtP-aU1ncCzOjKLtjvI2F3Yld9ofrkC7bAbLvf_an7L3Gs-JQQmGx7SzOt-QQ59t9NOw8s5tt5I1mFUPVsF0y-4GhWNWqL6wroD8g4UH26AQPWRIQgjGVaVgXslP7ykxYsIzNGi99-Zuwot9YffozSKUATr0r6KzIadq_wZrhwJnYoP26cyA23nS2QvC-Jn8ki9RWWrCDpqjjvVDG3fWhZm1rXluBdST7jA6xiZiGJClY0qrY3yH43rhKanRYNJpYSNgzptVhWYScSC-3=w528-h596-no?authuser=0",
-        "precio": 4000,
-        "description": "Mochila norteña bordada a mano con tachas y mostacillas"
-    },
-    {
-        "id": 2,
-        "name":"mochila con tachas y flecos",
-        "img":"https://lh3.googleusercontent.com/GyfLcyzVAyjPJ4fpYl01I4omHnzyLCSo4sj2cwAvJDq4eJK35HJ6_bjd_fO99Eg8bGtRX-vfu3N338sbHYCXCxCs0uBi4-JCTiTRhHo3fNEzxdDyYR3hFVxWdu79q9A3K2yGT664IYbntyheXLI2cHuyWxN-liQ5cM-f4jHqZkafeSzW-68rqa9n5Xc6YsC0wT3fFwHiED9ckJhWFTEqH2vsID8uONxlVjxTE64q-eXXIXmXD3cSafh4Q8Glxi6jrBIWeLV01ohRQlUy-YYAQTm-L1ji2a8GwAfGuInkiYMT3rzS9pgkHtsc94egIx0lu0mUOVFigYiH8wNaL5057Z8Wlj9mfZgqbQuAw9brvRgTUx8v36yyV67Mgo0uKplDSnnDf2N48hgDJ-UEC9WOU5BIw5XNqD7__JLKQpTA8_ljz_OSmmH_hs9skfKKofHj1iyqQ4Za0l8VYQtQ70xTetyd0vmdfOFWikHW_6Z3141-rlKEtg_RaroLmCpYCilapMes4KB7gPkLlwLybOUflxnUbASrDTq67EwdcypWnT_MDPd9lYSW9cNorfDCFjpd9ju_9jiJeedzwvAX5Eqa3zOCQaBmNeP6jRxEy2OzjxVcdjNjdq08oM2ce27OiRbHK44uiLzaG0N3o_R7EQC7t5wDgdVcAiWQRbcKrv6DBgYeEGVXjnTioFE4FV5ScpWj3Xnz4SCGziVjd_88wVT2OCEG=w470-h588-no?authuser=0",
-        "precio":4500,
-        "description": "mochila simil cuero negra con tachas y flecos"
-    },
-    {
-        "id": 3,
         "name":"mochila marron con letras",
         "img":"https://lh3.googleusercontent.com/N1KrTBLxvE13EMIQrlFAsRLypL-lrCEah0QML37nivz5BWxD7RvBvNCRsObJTutcPfGUZYOBvtixeecPjYRWa3lrY__ADnw9OThbMLekAfBEmTI6j94-FfjVjbjePUKUKmLxrAA51NR99Q5X4i_ZWCXGQdSPGTNzGr6gemdoQnnqM2a3NvlSHmO4DAksOclB3yjv5D__z_OFUIu4sx8x1tSJcnpyMg-xE2gFGPtUTy88wkNpZeoda-lEMagLNdHBaQv1m4vzURwfQZsZGAN7upa760yagJZ6_z8dLW8QbTugBVsldN0sEZsdmRIumtRiq9tI7uZ1KPUeb4KmLw2iQxgXnKRj3nJgcG8tqzH-qD-7lV8V9yRjMZtIJqQrAGt5mfDUVqkg9YaoQBLkj8kl_P8tduL2DYasAR4ZToWfowL-AyudkjyaXkFudOKM8eHexV1S1CGj7rfOeMbLzhESulLgOb789GvLDoltLKYc_gluESklx_GOC_3PDlr93zenPeGk69R_ZUIaXz9r9x1GEytoKh5xCGbumwQS_AtqwyWrBo7pDZ4iTPYT2FNWF15YhvguM_dIRAeipgxegPdHznjh_wYouOWlvFjvxaQrbT6wZ-1Gnp8bVzVlat0Gal2bBO9P0r_eK324yT0HAKsDpxEoxIvzZWlcPPjGNJBDRd-OTt9mXLzpT09-h2i4R2OkLZq9nKbfF2h8uzjyEh3agvSu=w472-h586-no?authuser=0ttps://carestino-ar-wrzqwdwu5ozbnlo9.stackpathdns.com/uploads/productos_imagen_3139-1_ar-1601602710.jpg",
         "precio":4000,
-        "description": "mochila simil cuero marron bordada con tachas, letras y mostacillas"
+        "description": "mochila simil cuero marron bordada con tachas, letras y mostacillas",
+        "category":"mochilas"
+    },
+    {
+        "id": 2,
+        "name":"riñonera",
+        "img": "https://lh3.googleusercontent.com/hx-zUexgXBwvwPXNEwxn2fHs_ShJCyW4CEl8ZkxIbLrOLgxkD6JyhrIYqiISHWRkolkJ699x8q8cT8CXSt7b0XRGDampgBE-jb31yxCB4XMZkZf_xiszfbmGykDFetIHVYyRZ_cgecVeiFwBKznKxA4Lc1kOFSLwPD0qU2LAsSDkmGpQ3xV8BIqwe8rDDEHqoUeJ3uEFAXLuVqlxpMpkSZVjK3UUG-X7TCrOWWU17IwJfUHkEY0bpt_02FAHLSlepSZ4H2PIc7m78QkNNnwVq6BfrZH-q3Y7MEYlUfwm8Kr0mGZbSIqQ1wLmgBxcV6rZchXUSNk3y3a5vfon1jCYfRTCPIUO-Huwwdu2r-gUCc06y-d4EjzLYhzXCQy1QK0ou4xZT2V0MiPbRERyx8T7wfVwSIzZt_176rPPC0bLK6jjNkeC5w1I-1Cao7YWNmjiEW0QctNrofmxDMt5IzLmgSh5O5DI2qo_cmkGQZdQP_2uSTsMfy1iMEpCpjoNKbmQ4JAYZlWGm1TjrTP7FvvHWuXSqVccjtHMXhLakU6hyf8lkqx2qvTagPCsrVZwvasrA0gT8VOXGgzF5nll539PIpPFhDKqzOkN2K2BdxH4kKiruotv2jSLiVQEtIeFdaA21vuux3Qc44B6X7O1ZQ1fealCgC0Y5C_ZAqpMrdorBFkqf8F1qc-Ga5qlcYXlB7JjaeLyZrB55MaIE7QanzuVS3ln=w281-h282-no?authuser=0",
+        "precio": 4000,
+        "description": "Riñonera negra con tachas",
+        "category": "rinioneras"
+    },
+    {
+        "id": 3,
+        "name":"cartera",
+        "img": "https://lh3.googleusercontent.com/MzVTIcJ31ARTTalKyaAGuJiEkp_30twcBanYxSYJt1ZW22CcwskJAwWfdnRmVylI11oK3qqxbfjg06vQMg0WPcHbT_0oXI8X6SQCBLHHqk506RFXHWODlom4VJ53FOhnw4_4obIhoVVkVKLDhhlEp2QJYUkM6e8H9wcoy7YXWFdv7RBfwM6NoWTmu4YoUktB6zGUPWLPtcISaammX9sHu6Y4FA1CKAOgiV8qVFKfAbzcLTTYnUnCJxXPyPKUf6oAY3NP_YwPKyF3X8k_XmcAXKKmNy49xm5OndkxcJ61Hv1sK-4zQxKBH6wNEDuezd-aK7OpJd_fgGp842bsMkJ9HkNlLgsNhnMLeb2MH4FOeXpZNbDFtfNUVjQpGV9441fb3aM3R_qu8fco3UxQBwp0DGS7sgyrTuQ80izLYyzaHL9ce-YV0DEeda9dMnUoT1ljJx1-5V3Bfdt507VBYk_kOGBlGiKj90l9-9hu9AnxFtJrr1ygj1TdRdOCMlMDxOCpWXlG__TKBC3DkY3jNKt28MHOTcd64OvYKtDkgtzXomjq0opy6M_ct9VXshjT8s90YZzg_Wn0sYkuA39Z_SlxnPRQFWL3sjDrbDVo93xq5PIvYXwcthYEBqFW6Ev3lQO1GpwP9YvplLb6lQhyCSmtIToSFtODtrYn2RdY4os8YA1XjVJRUiSrVa7x44TCMWgMM3q4XJzitHYPNULalFwzBNRk=w586-h588-no?authuser=0",
+        "precio":4500,
+        "description": "cartera negra con tachas",
+        "category": "carteras"
     }
+   
 ]

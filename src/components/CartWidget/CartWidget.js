@@ -5,8 +5,8 @@ import './CartWidget.css';
 
 const CartWidget = () => {
     return (
-        <div className="cartWidget">
-            <Icon corner name='cart' size='big' color='grey'/>
+        <div className="cartWidget">Checkout
+            <Icon corner name='cart' size='big' color='red'/>
         </div>
     )
 }

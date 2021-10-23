@@ -9,11 +9,15 @@ import NavBar from './components/NavBar/NavBar';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Header from './components/Header/Header';
 
+
+
 //views
 import Mochilas from './views/Mochilas/Mochilas';
 import Rinioneras from './views/Rinioneras/Rinioneras';
 import Carteras from './views/Carteras/Carteras';
 import Home from './views/Home/Home';
+import Seccion from './components/Category/Seccion';
+
 
 
 
@@ -29,6 +33,7 @@ const App = () => {
               <Route path ="/rinioneras" component = {Rinioneras} />
               <Route path ="/carteras" component = {Carteras} />
               <Route path="/detail/:id" component={ItemDetailContainer}/>
+              <Route path="/category/:categoryId" component={Seccion} />
             </Switch>
             
       </div>

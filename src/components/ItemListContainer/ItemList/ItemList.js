@@ -22,7 +22,7 @@ const ItemList = () => {
                 return (
                     <div key = {item.id}>
                         <Link to={`/detail/${item.id}`}>
-                            <Item item={item} />
+                            <Item item={item} key={item.id} />
                         </Link>
                     </div>
                 )

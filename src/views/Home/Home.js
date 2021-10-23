@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import ItemList from '../../components/ItemListContainer/ItemList/ItemList';
+import Categories from '../Categories';
+
 
 const Home = () => {
     return (
         <div>
-            <h1>Bievenido a VK Gentile</h1>
+            <Categories/>
+           <h1>Todos los productos</h1>
+           <ItemList></ItemList>
         </div>
     )
 }

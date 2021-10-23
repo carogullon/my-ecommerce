@@ -1,6 +1,6 @@
 .NavBar {
     display: flex;
-    background-color:rgb(241, 228, 210);
+    background-color:black;
     min-height: 5vh;
     
 }
@@ -11,6 +11,7 @@
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
+    font-size:15px;
 }
 @media (min-width:768px) {
     .productos {
@@ -20,10 +21,10 @@
 }
 
 .item {
-    padding:20px;
+    padding:15px;
     text-decoration:none;
-    color:grey;
-    font-size:20px;
+    color:white;
+    font-size:15px;
     font-family:'Poppins', sans-serif;
     font-weight: bolder;
     text-align:center;

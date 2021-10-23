@@ -1,3 +1,7 @@
+# Proyecto
+
+Proyecto React de CoderHouse donde se trabaja sobre una tienda de venta de accesorios para mujeres: carteras, riñoneras y mochilas.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
