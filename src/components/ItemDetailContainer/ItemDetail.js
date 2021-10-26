@@ -11,7 +11,7 @@ const ItemDetail = ({producto}) => {
 
     const [compra, setCompra] = useState();
     const [finalizarCompra, setFinalizarCompra] = useState(false);
-    const { addItem } = useContext(ItemsContext);
+    const { productos, setProductos, removeItem, clearState, addItem } = useContext(ItemsContext);
 
     const onAdd = (cantidad) =>{
         setCompra(cantidad);
@@ -35,14 +35,10 @@ const ItemDetail = ({producto}) => {
                         <Card.Description>{producto.description}</Card.Description>
                     </Card.Content>
                     {
-                        finalizarCompra ? 
-                        ( <Link to={`/cart`}><button>Finalizar Compra</button></Link>
-
+                        finalizarCompra >=1 ? 
+                        ( <Link to={`/cart`}><button  onClick={()=>{}}>Finalizar Compra</button></Link>
                         ): (
-                            <ItemCount 
-                            stock="5" 
-                            initial={1}  
-                            onClick= { (cant)=> onAdd(cant) }>
+                            <ItemCount stock="5" initial={1}  onClick= { (cant)=> onAdd(cant) }>
                             </ItemCount>    
                         )}
                 </Card>

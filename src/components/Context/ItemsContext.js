@@ -1,53 +1,57 @@
-import React, {useState, createContext} from'react';
+import React, {useState, useEffect, createContext} from'react';
 
 
 export const ItemsContext = createContext();
 
 export const ItemsProvider =({children})=> {
-    const [cart, setCart] = useState ([]);
-    const [total, setTotal] = useState(0)
-    const [cantidadItem, setCantidadItem] = useState(0)
+    const [productos, setProductos] = useState ([]);
 
+    const addItem = (producto, cantidad) => {
+        console.log("hola item")
 
-    const isInCart = (id) => {
-        const item = cart.filter(p => p.item.id === id);
-        if ( item.length > 0 ) {
-            return true
+        if (localStorage.getItem("ShippingCart") !== null) {
+            setProductos(JSON.parse(localStorage.getItem("ShippingCart")))
         }
-        else{
-            return false
-        }
-    }
-    function addItem(newItem, quantity) {
-        const idx = cart.findIndex((listI) => listI.item.id === newItem.id)
-
-        if (idx === -1) {
-            const l = [ ...cart, { item: newItem, quantity } ]
-            setCart(l)
+       
+        if (productos.lenght>0){
+            const productoClickeado = producto.filter((e) => e.id === producto.id)
+            if (productoClickeado !== null){
+                productoClickeado.cantidad += cantidad
+            } else {
+                const productoAgregado = {"id" : producto.id, "cantidad": cantidad}
+                productos.push(productoAgregado)
+            }
         } else {
-            const newQuantity = cart[idx].quantity + quantity;
-            const oldI = cart.filter((oldI) => oldI.item.id !== cart[idx].item.id)
-            const l = [...oldI, { item: cart[idx].item, quantity: newQuantity }]
-            setCart(l)
-        }
+            const productoNuevo = {"id": producto.id, "cantidad": cantidad}
+            productos.push(productoNuevo)
+
+        } 
+        (localStorage.setItem("ShippingCart", JSON.stringify(productos)))
     }
-   
-    const removeItem = (elemento) => {
-        const listaNew = cart.filter(p=> p.item.id != elemento.item.id)
-        setCart(listaNew)
+
+    const removeItem = (producto) => {
+        if (productos.lenght){
+            const indexOf = productos.indexOf((e) => e.id === producto.id)
+            if (indexOf > -1){
+                productos.slice(indexOf, 1)
+            } 
+        } 
     }
-    const clearCart = () => {
-        setCart([])
+    const clearState = () => {
+        setProductos ([])
     }
+
     return (
         <ItemsContext.Provider value={{
-                clearCart: clearCart,
-                addItem: addItem,
-                cart: cart,
-                serCart: setCart,
-                removeItem: removeItem,
-                cantidad: cart.length, }}>
+            productos,
+            setProductos,
+            addItem,
+            removeItem,
+            clearState
+              }}>
             {children}
         </ItemsContext.Provider>
     )
 }
+
+export default ItemsProvider;

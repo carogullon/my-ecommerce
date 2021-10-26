@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Header from './components/Header/Header';
 import {ItemsProvider} from './components/Context/ItemsContext';
-import ItemDetail from './components/ItemDetailContainer/ItemDetail'
+import Cart from './components/Context/Cart'
 
 
 
@@ -31,7 +31,7 @@ const App = () => {
               <Route path ="/carteras" component = {Carteras} />
               <Route path="/detail/:id" component={ItemDetailContainer}/>
               <Route path="/category/:categoryId" component={Seccion} />
-              <ItemDetail/>
+              <Route path="/cart" component={Cart}/>
             </Switch>   
       </ItemsProvider>
     </Router>
