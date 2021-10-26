@@ -5,9 +5,10 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 //Components
-import NavBar from './components/NavBar/NavBar';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Header from './components/Header/Header';
+import {ItemsProvider} from './components/Context/ItemsContext';
+import ItemDetail from './components/ItemDetailContainer/ItemDetail'
 
 
 
@@ -18,15 +19,11 @@ import Carteras from './views/Carteras/Carteras';
 import Home from './views/Home/Home';
 import Seccion from './components/Category/Seccion';
 
-
-
-
 const App = () => {
   return (
     <Router>
-      <div>
+      <ItemsProvider>
         <Header greeting="VK GENTILE - Hecho a mano"/>
-        <NavBar />
             <Switch>
               <Route path ="/"  exact component = {Home} />
               <Route path ="/mochilas" component = {Mochilas} />
@@ -34,9 +31,9 @@ const App = () => {
               <Route path ="/carteras" component = {Carteras} />
               <Route path="/detail/:id" component={ItemDetailContainer}/>
               <Route path="/category/:categoryId" component={Seccion} />
-            </Switch>
-            
-      </div>
+              <ItemDetail/>
+            </Switch>   
+      </ItemsProvider>
     </Router>
   );
 };

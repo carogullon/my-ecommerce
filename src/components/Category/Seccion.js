@@ -22,7 +22,7 @@ const Seccion = ({}) => {
   
     return (
         <div>
-        <Categories/>
+        <Categories />
         {seccion.map((producto)=>{
             
             return (

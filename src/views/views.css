@@ -1,6 +1,6 @@
 .NavBar {
     display: flex;
-    background-color:rgb(241, 228, 210);
+    background-color:black;
     min-height: 5vh;
     
 }
@@ -22,9 +22,25 @@
 .item {
     padding:20px;
     text-decoration:none;
-    color:grey;
+    color: white;
     font-size:20px;
     font-family:'Poppins', sans-serif;
     font-weight: bolder;
     text-align:center;
 }
+.cartWidget {
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    color: white;
+    border-radius: 2px;
+    width: 100%;
+    min-width: 400px;
+    max-width: 450px;
+    padding:20px;
+    text-decoration:none;
+    font-size:20px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
